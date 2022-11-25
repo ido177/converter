@@ -1,5 +1,4 @@
 import requests
-import sys
 
 currency = input().lower()
 r = requests.get(f'http://www.floatrates.com/daily/{currency}.json').json()
